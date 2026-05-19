@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+
+    <title>{{ title }}</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    {% if css %}
+    <link rel="stylesheet" href="/css/{{ css }}">
+    {% endif %}
+</head>
+
+<body>
+
+<main class="post">
+    {{ content | safe }}
+</main>
+
+</body>
+</html>
