@@ -1,7 +1,7 @@
 ---
 title : Présentation d'Urban Solar Energy
 alt: logo Urban Solar Energy
-image : ./assets/USE.png
+image : /assets/USE.png
 description : Découverte de l'entreprise où j'effectue mon alternance (stack...)
 css: post.css
 ---

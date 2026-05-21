@@ -1,6 +1,6 @@
 ---
 title : Projet final 9mois de formation initiale à Ada Tech School
-image : ./assets/logoKanshi.png
+image: /assets/logoKanshi.png
 alt: Log projet Kanshi
 description : Explication de mon projet final lors de ma formation à Ada Tech School; Kanshi (suivi de performance)
 css: post-1.css
