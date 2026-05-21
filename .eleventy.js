@@ -1,13 +1,11 @@
 module.exports = function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("style.css");
+
+  // Copie les fichiers statiques vers _site
   eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("assets");
-};
+  eleventyConfig.addPassthroughCopy("images");
+  eleventyConfig.addPassthroughCopy("js");
 
-export default function(eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("src/css");
-}
-
-export const config = {
-  pathPrefix: "/Blog-Vic/"
+  return {
+    pathPrefix: "/Blog-Vic/"
+  };
 };
