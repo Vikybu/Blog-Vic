@@ -1,6 +1,6 @@
 ---
 title : Présentation
-image : ./assets/imageVic.jpg
+image : /assets/imageVic.jpg
 alt: Photo de Vic
 description : Présentation rapide de ma personne
 css: post.css
