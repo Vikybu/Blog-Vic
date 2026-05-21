@@ -2,21 +2,15 @@
 <html lang="fr">
 <head>
     <meta charset="utf-8">
-
     <title>{{ title }}</title>
-
-    <link rel="stylesheet" href="/style.css">
-
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     {% if css %}
-    <link rel="stylesheet" href="{{ '/css/' | append: css | url }}">
+    <link rel="stylesheet" href="{{ ('/css/' + css) | url }}">
     {% endif %}
 </head>
-
 <body>
-
 <main class="post">
     {{ content | safe }}
 </main>
-
 </body>
 </html>
