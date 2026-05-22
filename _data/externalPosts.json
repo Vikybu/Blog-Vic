@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Apprendre à coder avec un bébé qui ne dort pas (ou presque)",
+    "Auteur-ice": "Victor",
+    "url": "https://victorlpr.github.io/Blog/posts/daddy-coder/",
+    "description": "Un article très interessant sur la paternité en période de reconversion",
+    "date": "2026-05-19"
+  },
+  {
+    "title": "React vs Astro",
+    "Auteur-ice": "Xinzhu",
+    "url": "https://xinzhu99.github.io/SSG-blog/blog/article-2/",
+    "description": "Un article pour faire le bon choix entre astro et react",
+    "date": "2026-05-21"
+  }
+]

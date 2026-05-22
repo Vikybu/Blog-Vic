@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="fr">
 <head>
-
     <meta charset="utf-8">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
@@ -11,9 +10,9 @@
 </head>
 <body>
     {% include "navbar.njk" %}
-<body>
 <main class="post">
     {{ content | safe }}
 </main>
+{% include "footer.njk" %}
 </body>
 </html>
