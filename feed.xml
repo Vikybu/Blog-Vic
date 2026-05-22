@@ -1,0 +1,23 @@
+---
+permalink: /external-feed.xml
+eleventyExcludeFromCollections: true
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Veille dev - Vic</title>
+    <link>{{ "https://ton-site.github.io/Blog-Vic/" }}</link>
+    <description>Articles externes sélectionnés</description>
+
+    {% for post in externalPosts %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>{{ post.url }}</link>
+      <description>{{ post.description }}</description>
+      <pubDate>{{ post.date }}</pubDate>
+    </item>
+    {% endfor %}
+
+  </channel>
+</rss>
