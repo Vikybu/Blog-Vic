@@ -13,6 +13,7 @@ css: veille.css
         {{ post.title }}
       </a>
     </h2>
+    <p>{{ post.auteur-ice }}</p>
     <p>{{ post.description }}</p>
     <small>{{ post.date }}</small>
   </div>
