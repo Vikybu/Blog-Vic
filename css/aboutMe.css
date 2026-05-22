@@ -1,0 +1,35 @@
+.container_general {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 12px;
+    align-items: start;
+}
+
+.description {
+    font-size: 1.1rem;
+    background: #2B2E54;
+    color: white;
+    margin-bottom: 1rem;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+    border-radius: 16px 16px 16px 16px;
+    width: 80%;
+    height:auto;
+    font-family: "Noto Sans Mono", monospace;
+    padding: 20px;
+}
+
+.div_social_media {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.div_social_media {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-linkedin {
+    with: 20px;
+    height: auto;
+}

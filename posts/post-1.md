@@ -1,10 +1,13 @@
 ---
-title : Présentation
-image : /assets/imageVic.jpg
-alt: Photo de Vic
-description : Présentation rapide de ma personne
-css: post.css
----
+title : Mini-blog avec ElevenTy
+image: /assets/eleventy-ssg.png
+alt: Logo Eleventy
+date: 2026-05-22
+description : Création d'un mini-blog avec Eleventy
+css: post-1.css
+layout: layouts/post.njk
 
-Bienvenue à tous dans mon blog. Je suis Victoria, anciennement ingénieur agroalimentaire, je suis en reconversion pour devenir développeuse full-stack.
-Je suis actuellement en alternance chez Urban Solar Energy à Lyon.
+---
+<h1>Eleventy: un générateur simple de site statique</h1>
+
+    
