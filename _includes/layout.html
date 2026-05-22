@@ -5,6 +5,9 @@
     <title>Blog Tech de Vic</title>
     <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
     <link rel="stylesheet" href="{{ '/css/navbar.css' | url }}">
+    {% if css %}
+    <link rel="stylesheet" href="{{ '/css/' | append: css | url }}">
+    {% endif %}
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
